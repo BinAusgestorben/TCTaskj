@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+.bodyessential {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 23 25 / var(--tw-bg-opacity));
+  font-family: Bai Jamjuree, sans-serif;
+  --tw-text-opacity: 1;
+  color: rgb(132 139 141 / var(--tw-text-opacity));
+}
+
+div {
+  display: block;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20%;
+  background-color: #1f2225;
+  display: flex;
+}
+
+.maincontainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #1f7cda;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  height: 10%;
+  width: 100%;
+  background-color: #ba00fe;
+  display: flex;
+}
+
+.content-container {
+  position: relative;
+  height: 90%;
+  width: 100%;
+  background-color: #00fff2;
+}
+
+.chat-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #0cff45;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Input container floating on top of chat container*/
+.input-container {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+  width: 50rem;
+  min-height: 50px;
+  background-color: crimson;
+}

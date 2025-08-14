@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Popup Test</title>
+    <link rel="stylesheet" href="/styler.css" />
+  </head>
+  <body>
+    <div class="modal" style="display: flex">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form class="login-form">
+          <label for="username">Benutzername</label>
+          <input type="text" id="username" name="username" />
+          <label for="password">Passwort</label>
+          <input type="password" id="password" name="password" />
+          <button type="submit">Einloggen</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
